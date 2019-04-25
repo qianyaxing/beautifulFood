@@ -1,0 +1,95 @@
+/* 底部样式 */
+.footer{
+    width: 100%;
+    height: 348px;
+    background: url(../images/yinyue_bg.jpg)no-repeat center;
+    position: relative;
+}
+.footer .music{
+    width: 575px;
+    position: absolute;
+    top: 118px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.music>li{
+    float: left;
+    width: 57px;
+    height: 57px;
+    background: url(../images/yinyue_duo.png)no-repeat 0 0;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.music>li:hover{
+    background-position: 0 -57px;
+    animation: 1s linear su-pudding;
+}
+.footer .top{
+    height: 260px;
+    border-bottom: 1px dashed white;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+.top li{
+    cursor: pointer;
+}
+.top .yinfu1{
+    width: 57px;
+    height: 57px;
+    background: url(../images/yinyue_duo.png) no-repeat 0 0 ;
+}
+.top .yinfu1:hover{
+    background-position: 0 -57px;
+}
+.top .yinfu2{
+    width: 57px;
+    height: 57px;
+    background: url(../images/yinyue_lai.png) no-repeat 0 0 ;
+}
+.top .yinfu2:hover{
+    background-position: 0 -57px;
+}
+.top .yinfu3{
+    width: 57px;
+    height: 57px;
+    background: url(../images/yinyue_mi.png) no-repeat 0 0 ;
+}
+.top .yinfu3:hover{
+    background-position: 0 -57px;
+}
+.top .yinfu4{
+    width: 57px;
+    height: 57px;
+    background: url(../images/yinyue_fa.png) no-repeat 0 0 ;
+}
+.top .yinfu4:hover{
+    background-position: 0 -57px;
+}
+.top .yinfu5{
+    width: 57px;
+    height: 57px;
+    background: url(../images/yinyue_suo.png) no-repeat 0 0 ;
+}
+.top .yinfu5:hover{
+    background-position: 0 -57px;
+}
+.top .yinfu6{
+    width: 57px;
+    height: 57px;
+    background: url(../images/yinyue_la.png) no-repeat 0 0 ;
+}
+.top .yinfu6:hover{
+    background-position: 0 -57px;
+}
+.top .yinfu7{
+    width: 57px;
+    height: 57px;
+    background: url(../images/yinyue_xi.png) no-repeat 0 0 ;
+}
+.top .yinfu7:hover{
+    background-position: 0 -57px;
+}

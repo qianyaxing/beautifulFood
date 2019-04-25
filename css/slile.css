@@ -1,0 +1,64 @@
+.about-company .tit{
+    font: 30px/60px"微软雅黑";
+    color: #311859;
+    background: url(../images/pen_line_long.png)no-repeat bottom left,
+    url(../images/pen.png)no-repeat right bottom -1px;
+}
+.about-company .and{
+    margin-top: 40px;
+}
+.main h1{
+    padding: 120px 0 20px 0;
+}
+.and li{
+    float: left;
+}
+.and .content-li{
+    width: 246px;
+    display: inline-block;
+}
+.and img,.and .content-li{
+    vertical-align: middle;
+}
+.and img{
+    padding: 25px 14px;
+}
+.and li{
+    background: white;
+}
+.and .imgageLeft{
+    margin:0 10px 10px 0;
+}
+.and span{
+   font: 20px/30px"楷体";
+    color: #737375;
+}
+
+.and h6,.and p{
+    color:#6B696F;
+    font: 15px/30px"楷体";
+}
+.main .ck{
+    color:#6B696F;
+    font: 15px/30px"楷体";
+    text-align: center;
+    cursor: pointer;
+    background: url(../images/next&prev_line.png)no-repeat bottom;
+}
+.main .cks{
+    text-align: center;
+    padding-top:70px;
+}
+.cks>.png:hover{
+    cursor: pointer;
+}
+.cks>.ck{
+    cursor: pointer;
+}
+body{
+    background: #F0F0F0;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}

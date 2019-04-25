@@ -1,0 +1,77 @@
+/* 头部样式 */
+.header{
+    width: 100%;
+    height: 120px;
+    background: #37274b url(../images/header_bg.jpg)no-repeat center;
+}
+.beijing{
+    width: 100%;
+    height: 923px;
+    background: url(../images/mokuai02_bg.jpg) no-repeat;
+ }
+.header .logo{
+    width: 119px;
+    height: 46px;
+    padding-top: 40px;
+    background: url(../images/logo.png)no-repeat;
+    text-indent: -9999em;
+}
+.header .nav{
+    font-size: 14px;
+    padding-top: 47.5px;
+}
+.first-list>li>a{
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.first-list>li{
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+.first-list>li>span{
+    width: 25px;
+    height: 25px;
+    background: url(../images/nav_xiajiantou.png)no-repeat;
+    display: inline-block;
+    vertical-align: top;
+}
+.first-list>li:hover>span{
+    background: url(../images/nav_xiajiantou_hover.png)no-repeat;
+}
+/* second-list  */
+/* 二级菜单 */
+.nav .second-list{
+    position: absolute;
+    width: 130%;
+    background: #37274b;
+    display: none;
+    z-index: 10;
+}
+.second-list>li{
+    position: relative;
+}
+.second-list>li>a{
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-left: -20px;
+}
+.second-list>li:hover a{
+    background: #039de9;
+    margin: 0;
+}
+/* .second-list>li>span{
+    position: absolute;
+    width: 5px;
+    height: 8px;
+    right: 5px;
+    top:16px;
+    display: none;
+    background: url(../images/nav_li_bg.png)no-repeat;
+} */
+.second-list>li:hover>span{
+    display: block;
+}

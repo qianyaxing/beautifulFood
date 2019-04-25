@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/base.css"> -->
+    <link rel="stylesheet" href="./css/goTop.css">
+    <!-- <script src="./js/jquery-1.12.4.min.js"></script> -->
+    <script>
+        $(function () {
+            //监听滚动高度显示隐藏   这里可以不适用null
+            $(window).on('scroll', null, $('.goTop'), function (e) {
+                if ($(this).scrollTop() >= 300) {
+                    //淡入
+                    e.data.fadeIn();
+                } else {
+                    e.data.fadeOut();
+                }
+            })
+            //点击返回顶部
+            $('.rock').on('click', function () {
+                $('body,html').animate({ 'scrollTop': 0 });
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <section class="goTop">
+        <div class="rock"></div>
+        <div class="callme"></div>
+    </section>
+</body>
+
+</html>

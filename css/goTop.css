@@ -1,0 +1,32 @@
+/* 返回顶部 */
+.goTop{
+    display: none;
+}
+.rock{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 200px;
+    cursor: pointer;
+    background: url(../images/scroll_top_bg.png)no-repeat;
+}
+.rock:hover{
+    animation: 1s linear su-pudding;
+    background-position: 0 -50px;
+}
+.callme{
+    position: fixed;
+    width: 87px;
+    height: 87px;
+    background: url(../images/fixed_contactus.png)no-repeat right;
+    right: 30px;
+    bottom: 100px;
+    /* 滑動動畫 */
+    transition: all 1s linear;
+    cursor: pointer;
+}
+.callme:hover{
+    width: 235px;
+    animation: 1s linear su-pudding;
+}

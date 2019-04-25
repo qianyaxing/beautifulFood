@@ -1,0 +1,57 @@
+/* 头部样式 */
+.header{
+    width: 100%;
+    height: 120px;
+    background: #37274b url(../images/header_bg.jpg)no-repeat center;
+}
+.header .logo{
+    width: 376px;
+    height: 120px;
+    background: url(../images/logo.png)no-repeat;
+    text-indent: -9999em;
+}
+.header .nav{
+    font-size: 14px;
+    padding-top: 47.5px;
+}
+.nav a{
+    color: white;
+}
+.nav li{
+    float: left;
+    margin: 0 14px;
+    line-height: 25px;
+    position: relative;
+}
+.nav span{
+    width: 25px;
+    height: 25px;
+    background: url(../images/nav_xiajiantou.png)no-repeat;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+.nav li:hover span{
+    background: url(../images/nav_xiajiantou_hover.png)no-repeat;
+}
+/* second  */
+/* 二级菜单 */
+.nav ol{
+    position: absolute;
+    width: 130%;
+    z-index: 10;
+    background: #37274b;
+    left: -20%;
+    display: none;
+}
+.nav ol li{
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+}
+.nav ol li:hover{
+    width: 90%;
+    background: #039de9;
+    padding-left: 10%;
+}

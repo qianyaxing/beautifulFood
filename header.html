@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="关键词">
+    <meta name="description" content="网站描述">
+    <title>Document</title>
+    <!-- 标题图标 -->
+    <!-- <link rel="shortcut icon" href="./bitbug_favicon.icon.ico "> -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- 引包 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/move.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<script>
+    $(function () {
+        $(".first-list>li").hover(function () {
+            $(this).find("ol").stop().slideDown(600, "elasticOut");
+        }, function () {
+            $(this).find("ol").stop().slideUp(600, "elasticIn");
+        })
+    })
+</script>
+
+<body>
+    <!-- 头部页面部分 -->
+    <section class="header">
+        <div class="container clearfix">
+            <a href="./index.html">
+                <img class="logo" src="./images/tubiao.png" alt="">
+            </a>
+            <div class="nav fr">
+                <ul class="clearfix first-list">
+                    <li><a href="./index.html">首页</a></li>
+                    <li><a href="#">美食天地</a><span></span>
+                        <ol class="second-list">
+                            <li><a href="./aboutXX.html">美食主页</a><span></span></li>
+                            <li><a href="./aboutXX.html#1">美食概述</a><span></span></li>
+                            <li><a href="./aboutXX.html#2">美食之城</a><span></span></li>
+                            <li><a href="./aboutXX.html#3">美食世界</a><span></span></li>
+                            <li><a href="./aboutXX.html#4">美食联盟</a><span></span></li>
+                            <li><a href="./aboutXX.html#4">美食社区</a><span></span></li>
+                        </ol>
+                    </li>
+                    <li><a href="./slile.html">美食共享</a></li>
+                    <li><a href="#">文化</a><span></span>
+                        <ol class="second-list">
+                            <li><a href="./zhuoxin.html?type=companyIdea">美食理念</a><span></span></li>
+                            <li><a href="./zhuoxin.html?type=companyCulture">美食文化</a><span></span></li>
+                            <li><a href="./zhuoxin.html?type=companyEnvironment">美食氛围</a><span></span></li>
+                        </ol>
+                    </li>
+                    <li><a href="#">人力资源</a><span></span>
+                        <ol class="second-list">
+                            <li><a href="./zhuoxin.html?type=talents">人才理念</a><span></span></li>
+                            <li><a href="./zhuoxin.html?type=team">团队介绍</a><span></span></li>
+                            <li><a href="./zhuoxin.html?type=joinUs">招聘信息</a><span></span></li>
+                        </ol>
+                    </li>
+                    <li><a href="./zhuoxin.html?type=telUs">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,331 @@
+/* 头部导航 */
+.head{
+    height: 50px;
+    background: url(../images/aboutxiaoniao/beader_bg.jpg) center;
+}
+.logo{
+    margin-right: 40px;
+}
+.nav li{
+    float: left;
+}
+.nav a{
+    display:block;
+    font: 16px/50px"楷体";
+    padding: 0 20px;
+    color: #cccccc;
+}
+.nav .now>a{
+    color: white;
+    background: url(../images/nav_now_bg.png)no-repeat center 80%;
+}
+/* 整屏滑动 */
+.screen{
+    background: olive;
+    position: relative;
+    overflow: hidden;
+}
+.screen>ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600%;
+}
+/* 1 */
+.block-one,.block-two,.block-three,.block-fonr,.block-six{
+    height: 100%;
+    position: relative;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.block-one .module-a{
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.block-one .welcome{
+    width: 200px;
+    height: 200px;
+}
+.block-one h1,span,.welcome-K h1{
+    font: 40px/50px"楷体";
+    color: white;
+}
+.block-one .x,.block-one .content,.welcome-K .x,.welcome-K .content{
+    color: #C7C3CC;
+    font:20px/30px"楷体";
+}
+.module-a .xia{
+    width: 58px;
+    height: 58px;
+    margin-top: 50px;
+    background: url(../images/aboutxiaoniao/donext.png)no-repeat 0 -58px;
+}
+.module-a .xia:hover{
+    background: url(../images/aboutxiaoniao/donext.png)no-repeat 0 0px;
+}
+.module-a .zuo,.module-a span,.welcome-K .zuo,.welcome-K span,.slide .zuo,.slide .content{
+    vertical-align: top;
+    margin-right: 20px;
+}
+.module-a .you,.module-a span,.welcome-K .you,.welcome-K span,.slide .you,.slide .content{
+    vertical-align: bottom;
+    margin-left: 20px;
+}
+/* 2 */
+.block-two ul,.block-fonr ul {
+    position: absolute;
+    width: 310%;
+    height: 100%;
+    top: 0;
+}
+.block-two .slide,.block-fonr .slide{
+    height: 100%;
+    float: left;
+}
+.slide >.container{
+    height: 100%;
+    position: relative;
+}
+.slide .box{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    font: 16px/20px"楷体";
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.slide h1{
+    font: 40px/40px"楷体";
+    color: #299AD6;
+    margin: 5px 0 5px 0;
+}
+.slide .zuo,.slide .content,.slide .you{
+    display: inline-block;
+}
+.slide .content{
+    text-align: left;
+    text-indent: 2em;
+    font: 16px/30px"楷体";
+    color: #6B6A6F;
+}
+.image img{
+    width: 150px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.block-two .arrow{
+    position: absolute;
+    width: 80%;
+    height: 58px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.block-two .arrow>.left,.block-two .arrow>.right{
+    width: 58px;
+    height: 58px;
+    cursor: pointer;
+    background: url(../images/aboutxiaoniao/goleft.png)no-repeat 0 0;
+}
+.arrow>.left:hover{
+    background: url(../images/aboutxiaoniao/goleft.png)no-repeat -58px 0;
+}
+.block-two .arrow>.right{
+    background: url(../images/aboutxiaoniao/goright.png)no-repeat -58px 0;
+}
+.arrow>.right:hover{
+    background: url(../images/aboutxiaoniao/goright.png)no-repeat 0 0px;
+}
+/* 3 */
+.block-three h1{
+    font: 40px/40px"楷体";
+    color: white;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.block-three .module-c{
+    width: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+.module-c .left,.module-c .right{
+    width:460px;
+
+}
+.module-c .border_11{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.module-c .border_21{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.module-c .border_31{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.module-c .border_41{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.module-c .NO{
+    display: inline-block;
+    width: 74px;
+    height: 74px;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 74px;
+    color: white;
+    margin:30px 30px 30px 89px;
+}
+.module-c .content-p,.module-c .NO{
+    display: inline-block;
+}
+.module-c .content-p{
+    width: 260px;
+    font: 16px/20px"楷体";
+    vertical-align: middle;
+    color: white;
+}
+/* 4 */
+
+.block-fonr p{
+    text-align: left;
+    text-indent: 2em;
+    font: 15px/26px"楷体";
+    margin-left: 50px;
+    color: #717074;
+
+}
+.block-fonr .cel{
+    text-indent: 0;
+}
+.block-fonr .arrow{
+    width: 170px;
+    height: 8px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.block-fonr .arrow .left,.block-fonr .arrow .right{
+    width: 78px;
+    height: 8px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    background: url(../images/aboutxiaoniao/xiaoniaoyun_btn.png)no-repeat 0 -8px;
+}
+.block-fonr .arrow .left span,.block-fonr .arrow .right span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    background: url(../images/aboutxiaoniao/xiaoniaoyun_btn.png)no-repeat 0 0;
+}
+.block-fonr .arrow .right span{
+    left: -78px;
+}
+/* 5 */
+.block-six{
+    
+    position: relative;
+}
+.block-six .contacts_bg{
+    width: 1366px;
+    height: 612px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.block-six{
+    width: 100%;
+    height: 100%;
+    background: url(../images/aboutxiaoniao/app&contacts_bg.gif)no-repeat center;
+}
+.block-six .sw{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top:40px;
+    left:334px;
+}
+.block-fonr .jianshan{
+font: 30px;
+}
+.block-six .app,.block-six .app_downcode{
+    vertical-align: middle;
+}
+.block-six .app_downcode{
+    margin: 30px;
+}
+.block-six h1{
+    font: 22px/3em"楷体";
+}
+.block-six .content{
+    font: 16px/2em"楷体";
+}
+.block-six .bottom{
+    position: relative;
+}
+.block-six .lol{
+    width: 450px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+/* 开场动画 */
+.welcome-K{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #299AD6;
+    z-index: 20;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.welcome-K .container{
+    position: relative;
+    height: 100%;
+}
+.welcome-K .box{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.welcome-K .text{
+    margin: 0 auto;
+    display: none;
+
+}

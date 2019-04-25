@@ -1,0 +1,160 @@
+{
+	"xiaoniaoNews1": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "美食理念",
+			"typeEntitle": "Our Dynamic",
+			"title": "美食理念",
+			"sysId": 1,
+			"content": "content",
+			"coverImg": "images/article_image01.jpg"
+		}
+	},
+	"xiaoniaoNews2": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "美食理念",
+			"typeEntitle": "Our Dynamic",
+			"title": "美食理念",
+			"sysId": 2,
+			"content": "content",
+			"coverImg": "images/article_image02.jpg"
+		}
+	},
+	"xiaoniaoNews3": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "美食理念",
+			"typeEntitle": "Our Dynamic",
+			"title": "美食理念",
+			"sysId": 3,
+			"content": "content",
+			"coverImg": "images/article_image03.jpg"
+		}
+	},
+	"xiaoniaoNews4": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "美食文化",
+			"typeEntitle": "Our Dynamic",
+			"title": "美食文化",
+			"sysId": 4,
+			"content": "content",
+			"coverImg": "images/article_image04.jpg"
+		}
+	},
+	"companyIdea": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "美食文化",
+			"typeEntitle": "company culture",
+			"title": "美食文化",
+			"content": "content",
+			"coverImg": "images/article_image05.jpg"
+		}
+	},
+	"companyCulture": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "美食文化",
+			"typeEntitle": "company culture",
+			"title": "美食文化",
+			"content": "content",
+			"coverImg": "images/article_image06.jpg"
+		}
+	},
+	"companyEnvironment": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "美食文化",
+			"typeEntitle": "company culture",
+			"title": "美食文化",
+			"content": "content",
+			"coverImg": "images/article_image07.jpg"
+		}
+	},
+	"talents": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "美食心得",
+			"typeEntitle": "company culture",
+			"title": "美食心得",
+			"content": "content",
+			"coverImg": "images/article_image08.jpg"
+		}
+	},
+	"team": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "美食心得",
+			"typeEntitle": "company culture",
+			"title": "美食心得",
+			"content": "content",
+			"coverImg": "images/article_image09.jpg"
+		}
+	},
+	"joinUs": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "美食心得",
+			"typeEntitle": "company culture",
+			"title": "美食心得",
+			"content": "content",
+			"coverImg": "images/article_image10.jpg"
+		}
+	},
+	"telUs": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "美食心得",
+			"typeEntitle": "Contact Us",
+			"title": "美食心得",
+			"content": "content",
+			"coverImg": "images/article_image11.jpg"
+		}
+	}
+}
